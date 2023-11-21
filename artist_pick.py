@@ -44,5 +44,5 @@ except FileExistsError as err:
 
 downloadImage(url, localDir)
 
-print('<br></br><a href="../promptbattle/voter_home.html">Click here to go back to voter home</a><br></br>')
+print('<br></br><a href="../promptbattle/artist_home.html">Click here to go back to battler home</a><br></br>')
 print('</body></html>')
