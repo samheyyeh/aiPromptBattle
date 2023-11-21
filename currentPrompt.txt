@@ -1,0 +1,2 @@
+randomNumber=56
+randomPrompt='Merge a piece of furniture with a wild animal.'
