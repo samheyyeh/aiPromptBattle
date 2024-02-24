@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Enter Your Prompt Here</title>
+  </head>
+
+<body>
+  <h1>Prompt: {{randomPrompt}}</h1>
+  <form action="/artist/genArt" method="post">
+    <label for="userPrompt">Enter Your Prompt Below:</label>
+    <br>
+    <textarea rows="10" cols="80" id="userPrompt" name="userPrompt"></textarea
+    <br><br>
+    <input type="submit" value="Generate Artwork">
+    <input id="sendNum" type="hidden" name="randomNum" value={{randomNum}}>
+  </form>
+</body>
+<h2>Masterpieces may take up to 30 seconds to generate</h2>
+</html>

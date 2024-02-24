@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Enter Your Prompt Here</title>
+  </head>
+
+<body> 
+<h1>Prompt: {{randomPrompt}}</h1>
+<br><br>
+<h1>Your Prompt: {{userPrompt}}</h1>
+<br><br>
+<h2>To submit your entry, click on the image you like the best.</h2>
+<br><br>
+{% for i in range(imageURLs|length) %}
+  <a href="/artist/pick?promptNum={{promptNum}}&url={{encodedURLs[i]}}"><img src="{{imageURLs[i]}}"></img></a><br><br>
+{% endfor %}
+</body>
+</html>
