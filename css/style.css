@@ -1,0 +1,32 @@
+body {
+    font-family: 'Monaco', monospace;
+    font-size: 30px;
+    background-color: #34649B;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #339966;
+    color: #fff;
+    padding: 10px;
+}
+
+a {
+  color: #fff;
+}
+
+.button {
+  background-color: #000000;
+  color: #FFFFFF;
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
