@@ -18,11 +18,15 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 4. .env File Setup:
     - Ensure you have a .env file in the same directory. The file should contain:
     - ``` OPENAI_API_KEY = 'OpenAI api key goes here' ```
-
-
+5. Install Dependencies:
+    - Ensure the virtual environment is active.
+    - Run ``` pip install -r requirements.txt ``` to install required packages.
+6. Start the Flask Server:
+    - Run ``` flask run ``` to start the server.
+    - Access the application at ``` localhost:5000 ```
 
 # Instructions for running an event
-1. Run project using ``` flask run ``` after correctly setting up the virtual environment
+1. After correctly running the project, you can start the event!
 2. Pick 4-6 audience members to be battlers (this is due to image generation limits)
     - Everyone else will be voting in the crowd 
 3. Organizer will be the MC
