@@ -30,13 +30,11 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 2. Pick 4-6 audience members to be battlers (this is due to image generation limits)
     - Everyone else will be voting in the crowd 
 3. Organizer will be the MC
+    - Navigate to ``` localhost:5000/mc/genPrompt ``` for the first screen 
     - MC’s computer will be projected onto a screen
-    - On the MC home page, the organizer will either generate a random prompt, or write a custom one into the text box
-    - Navigate to the current prompt screen to display the prompt
-    - Then, once all generating is done, go back to the MC home page and then to the voting results page for final results
-4. As the image generator:
-    - Battlers will navigate to the battler home and then see the prompt
-    - May need to refresh 
+    - Click ``` Generate Prompt ``` and now wait for the battlers to generate
+5. As the image generator:
+    - Navigate to ``` localhost:5000/artist/enterPrompt ```
     - They will read the general prompt, then enter in theirs
     - Ex:
       - General prompt: Blend your favorite NBA player with a superhero
@@ -44,11 +42,10 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
     - After writing the prompt, click the “submit” button
     - Battlers should wait around 30 seconds for images to generate, please do not click submit multiple times
     - After generation, click on the image the battler chooses to submit
-5. As the crowd member:
-    - Wait for the MC and Battlers to create finished artwork
-    - Navigate to the voter home and click on the button that says “click to see voting choices” 
+7. As the crowd member:
+    - Navigate to ``` localhost:5000/voter/choices ```
     - May need to refresh to see images
-    - Voters will click on their favorite image! (remember to take the prompt into account)
+    - Voters will click on their favorite image!
 
 # Important Reminders 
 - This project uses a ``` .env ``` file, so remember to set this up correctly with your OpenAI API key
