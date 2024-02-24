@@ -16,7 +16,7 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
       - Windows: ``` venv\Scripts\activate ```
       - macOS/Linux: ```  source venv/bin/activate ```
 4. .env File Setup:
-    - Ensure you have a .env file in the same directory. The file should contain:
+    - Ensure you have a ``` .env ``` file in the same directory. The file should contain:
     - ``` OPENAI_API_KEY = 'OpenAI api key goes here' ```
 5. Install Dependencies:
     - Ensure the virtual environment is active.
@@ -49,3 +49,9 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
     - Navigate to the voter home and click on the button that says “click to see voting choices” 
     - May need to refresh to see images
     - Voters will click on their favorite image! (remember to take the prompt into account)
+
+# Important Reminders 
+- This project uses a ``` .env ``` file, so remember to set this up correctly with your OpenAI API key
+- Navigate to ``` localhost:5000 ``` for the home screen
+- When running an event, be careful of rate limits
+- 
