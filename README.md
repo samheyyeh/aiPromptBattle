@@ -11,18 +11,18 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 2. Clone the Repository: Download the project code to your local machine. 
 3. Create a Virtual Environment (optional but recommended):
     - Navigate to the project directory.
-    - Run python ''' -m venv venv ''' to create a virtual environment named 'venv'.
+    - Run python ``` -m venv venv ``` to create a virtual environment named 'venv'.
     - Activate the virtual environment:
-      - Windows: ''' venv\Scripts\activate''' 
-      - macOS/Linux: ''' source venv/bin/activate''' 
+      - Windows: ``` venv\Scripts\activate ```
+      - macOS/Linux: ```  source venv/bin/activate ```
 4. .env File Setup:
     - Ensure you have a .env file in the same directory. The file should contain:
-    - ''' OPENAI_API_KEY = 'OpenAI api key goes here' '''
+    - ``` OPENAI_API_KEY = 'OpenAI api key goes here' ```
 
 
 
 # Instructions for running an event
-1. Run project using ''' flask run ''' after correctly setting up the virtual environment
+1. Run project using ``` flask run ``` after correctly setting up the virtual environment
 2. Pick 4-6 audience members to be battlers (this is due to image generation limits)
     - Everyone else will be voting in the crowd 
 3. Organizer will be the MC
