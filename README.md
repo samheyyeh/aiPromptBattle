@@ -1,4 +1,4 @@
-# promptBattleV2
+# Project Description
 Check out this exciting AI Prompt Battle project I've been working on. Users can unleash their creativity, generating unique images through DALL-E, and then battle them out on our platform powered by Flask. Join the fun, showcase your artistic flair, and compete with others in this innovative and visually captivating experience! 
 
 # Technologies and Architecture
@@ -25,7 +25,7 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
     - Run ``` flask run ``` to start the server.
     - Access the application at ``` localhost:5000 ```
 
-# Instructions for running an event
+# Running the event
 1. After correctly running the project, you can start the event!
 2. Pick 4-6 audience members to be battlers (this is due to image generation limits)
     - Everyone else will be voting in the crowd 
