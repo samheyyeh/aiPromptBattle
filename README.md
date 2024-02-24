@@ -54,4 +54,4 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 - This project uses a ``` .env ``` file, so remember to set this up correctly with your OpenAI API key
 - Navigate to ``` localhost:5000 ``` for the home screen
 - When running an event, be careful of rate limits
-- 
+- Send any feedback to ``` samheyyeh@gmail.com ```
