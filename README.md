@@ -11,7 +11,7 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 2. Clone the Repository: Download the project code to your local machine. 
 3. Create a Virtual Environment (optional but recommended):
     - Navigate to the project directory.
-    - Run python ``` -m venv venv ``` to create a virtual environment named 'venv'.
+    - Run ``` python3 -m venv venv ``` to create a virtual environment named 'venv'.
     - Activate the virtual environment:
       - Windows: ``` venv\Scripts\activate ```
       - macOS/Linux: ```  source venv/bin/activate ```
