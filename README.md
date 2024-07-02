@@ -52,3 +52,8 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 - Navigate to ``` localhost:5000 ``` for the home screen
 - When running an event, be careful of rate limits
 - Send any feedback to ``` samheyyeh@gmail.com ```
+
+# To-do
+- [ ] Add minting feature for winning piece
+- [ ] Save prompt of winning piece
+- [ ] Add a time limit
