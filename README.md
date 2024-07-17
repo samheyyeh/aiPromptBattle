@@ -56,4 +56,6 @@ Check out this exciting AI Prompt Battle project I've been working on. Users can
 # To-do
 - [ ] Add minting feature for winning piece
 - [ ] Save prompt of winning piece
-- [ ] Add a time limit
+- [ ] Make a GPT generate the prompts
+- [ ] Add a human vs computer version
+- [ ] Queuing for online games?
